@@ -3,6 +3,6 @@ const add = (step) => {
   let numberElement = document.getElementById("number");
   // We can use the innerText property to get the text inside the element
   let number = numberElement.innerText;
-  number = parseInt(number) + step;
+  number = parseInt(number) + 1;
   numberElement.innerText = number;
 };

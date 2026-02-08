@@ -5,6 +5,7 @@ const addItem = () => {
   shoppingListItems = [...shoppingListItems, item];
   updateItems();
 };
+updateItems();
 
 const updateItems = () => {
   // First we get the list element
@@ -19,5 +20,3 @@ const updateItems = () => {
     listElement.appendChild(itemElement);
   }
 };
-
-updateItems();

@@ -1,5 +1,7 @@
 let shoppingListItems = ["milk", "eggs", "bread"];
 
+updateItems();
+
 const addItem = () => {
   let item = document.getElementById("new-item-text").value;
   shoppingListItems = [...shoppingListItems, item];
@@ -19,5 +21,3 @@ const updateItems = () => {
     listElement.appendChild(itemElement);
   }
 };
-
-updateItems();

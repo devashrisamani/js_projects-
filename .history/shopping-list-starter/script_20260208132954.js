@@ -19,5 +19,3 @@ const updateItems = () => {
     listElement.appendChild(itemElement);
   }
 };
-
-updateItems();
